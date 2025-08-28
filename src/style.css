@@ -1,7 +1,78 @@
-h1{
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #272044;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0;
+}
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6)), url("../images/header.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: aliceblue;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  padding: 160px 120px;
+}
+header h1{
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 80px;
+    line-height: 1.5;
+    margin: 0 20px;
+    
+}
+header h3{
+    font-weight: 900;
+    font-size: 20px;
     text-align: center;
+    margin: 0 20px;
+}
+header h2{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+    margin: 0 20px;
+}
+header a{
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 24px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header a:hover{
+    background-color: #0000b3;
+}
+header p{
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+@media (max-width: 768px) {
+    header {
+        padding: 100px 20px;
+    }
+    header h1 {
+        font-size: 40px;
+    }
+    header h2 {
+        font-size: 20px;
+    }
+    header a {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
 }
