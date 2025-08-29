@@ -75,20 +75,70 @@ header p{
         font-size: 16px;
         padding: 10px 20px;
     }
+    .img-responsive{
+        width: 90%;
+        height: auto;
+    }
+}
+section{
+    max-width: 1400px;
+    margin: 10px;
+    padding: 60px 20px ;
+    background-color: #fff;
+    color: #000000;
+    border-radius: 10px;
+}
+section h2{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 5px;
+    color: #272044;
+    opacity: 0.3;
+    text-transform: uppercase;
+    margin: 0;
+}
+section h3{
+    font-weight: 700;
+    font-size: 30px;
+    color: #272044;
+    margin: 0;
+}
+section p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #272044;
+    opacity: 0.8;
+    text-align: center;
+    padding: 2px;
+
+}
+.my-5{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 10px;
+    text-align: center;
+    padding: 5px;
 }
 footer{
     background-image:linear-gradient(rgba(0, 0, 0, 0.7)), url("../images/header.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 50px 20px;
+  padding: 40px 20px;
   text-align: center;
   text-decoration: none;
-  font-size: small;
-    color: aliceblue;
-    margin-top: 20px;
-    border-radius: 10px;
-    font-size: 20px;
-    font-weight: 400;
-
+  color: aliceblue;
+  margin: 5px;
+  border-radius: 10px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 5px;
 }
