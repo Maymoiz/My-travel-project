@@ -11,7 +11,7 @@ body {
     margin: 0;
 }
 header{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.6)), url("../images/header.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6)), url("../images/Capetown.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -61,7 +61,7 @@ header p{
     line-height: 1.6;
     margin-top: 20px;
 }
-@media (max-width: 768px) {
+@media (max-width: 960px) {
     header {
         padding: 100px 20px;
     }
@@ -75,4 +75,20 @@ header p{
         font-size: 16px;
         padding: 10px 20px;
     }
+}
+footer{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7)), url("../images/header.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: small;
+    color: aliceblue;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+
 }
